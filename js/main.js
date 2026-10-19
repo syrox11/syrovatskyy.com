@@ -5,39 +5,43 @@ const translations = {
     nav_education: "Educación",
     nav_contact: "Contacto",
     hero_greeting: "Hola, soy",
-    hero_desc: "Ingeniero QA con +3 años de experiencia en automatización de pruebas, testing de APIs y aseguramiento de calidad de software. Apasionado por entregar productos fiables y de alta calidad.",
+    hero_desc: "Ingeniero QA con +3 años en aseguramiento de calidad de software: automatización E2E con Playwright y TypeScript, testing de APIs y validación de datos. Ahora en Lausana, disponible de inmediato.",
     hero_cta_contact: "Contactar",
     hero_cta_exp: "Ver experiencia",
     photo_placeholder: "Tu foto aquí",
     scroll_text: "Scroll",
     exp_label: "Trayectoria",
     exp_heading: "Experiencia <span>Profesional</span>",
-    exp1_date: "Nov 2025 — Presente",
-    exp1_b1: "Colaboración con Product Managers desde fases tempranas para definir estrategia de testing y requisitos de calidad, reduciendo defectos en fases tardías.",
-    exp1_b2: "Diseño e implementación de estrategia de automatización con Playwright en Angular con escenarios BDD/Gherkin.",
-    exp1_b3: "Desarrollo y mantenimiento de suites de pruebas E2E automatizadas, combinando testing automático y manual para cobertura completa.",
-    exp1_b4: "Liderazgo en testing de apps móviles en iOS y Android, asegurando funcionalidad, usabilidad y consistencia cross-platform.",
-    exp1_b5: "Optimización continua de procesos QA, contribuyendo a mejoras medibles en calidad de producto y reducción de ciclos de regresión.",
+    exp1_date: "Nov 2025 — Sep 2026",
+    exp1_b1: "Diseño, automatización y mantenimiento de tests E2E con Playwright y TypeScript, escritos en Gherkin/BDD y trazables a los requisitos de negocio (front-end Angular).",
+    exp1_b2: "Integración de la suite en pipelines GitLab CI/CD para validar cada despliegue; pruebas de rendimiento con JMeter y k6.",
+    exp1_b3: "Testing de APIs con Postman y EchoAPI; validación continua de datos en SQL y MongoDB.",
+    exp1_b4: "Automatización de tests en Android y testing funcional en Android/iOS; smoke y regresión de flujos críticos antes de cada release.",
+    exp1_b5: "Documentación de una aplicación que nunca se había documentado, que pasó a ser la referencia principal del equipo para distinguir bugs nuevos del comportamiento esperado.",
     exp2_date: "Sep 2024 — Nov 2025",
-    exp2_b1: "Soporte técnico de Nivel 3, resolviendo incidencias complejas escaladas y troubleshooting avanzado para integraciones API.",
-    exp2_b2: "Ejecución de consultas SQL para validación de datos, análisis de causa raíz e investigación de incidencias en producción.",
-    exp2_b3: "Coordinación con equipos de desarrollo para resolución oportuna de incidencias, mejorando el MTTR.",
+    exp2_b1: "Soporte técnico de Nivel 3: incidencias complejas e investigaciones en producción, coordinadas con los equipos de desarrollo.",
+    exp2_b2: "Soporte a partners en su integración con la API de Experticket; troubleshooting con Postman y análisis de datos con SQL.",
+    exp2_b3: "Gestión de despliegues CI/CD con Azure DevOps y validación QA de nuevas funcionalidades antes de su publicación.",
     exp2_b4: "Desarrollo de expertise en software de la industria turística y ecosistemas de ticketing.",
-    exp2_b5: "Trabajo en metodología Agile/Scrum con equipos cross-funcionales incluyendo desarrolladores, PMs y stakeholders.",
+    exp2_b5: "Asumí las responsabilidades del Director de Soporte durante sus ausencias, gestionando la carga de trabajo del departamento.",
+    exp4_date: "Sep 2024 — Nov 2025",
+    exp4_b1: "Gestión de usuarios y permisos en Active Directory y en entornos Windows, macOS y Linux.",
+    exp4_b2: "Administración de cuentas y licencias de Microsoft 365, incluido soporte de Teams.",
+    exp4_b3: "Soporte de red local, preparación y despliegue de puestos de trabajo y sustitución de hardware.",
     exp3_date: "Abr 2022 — May 2024",
-    exp3_b1: "Soporte técnico para software BPMS y aplicaciones basadas en SQL, manteniendo documentación del sistema.",
-    exp3_b2: "Participación en ciclos de testing QA, contribuyendo a identificación de defectos y estabilidad del producto.",
-    exp3_b3: "Testing de APIs vía Postman y SoapUI (REST/SOAP), validando flujos de integración.",
-    exp3_b4: "Desarrollo de informes y dashboards en Power BI para la toma de decisiones basada en datos.",
-    exp3_b5: "Creación de flujos automatizados y diseño de formularios para optimizar procesos internos.",
+    exp3_b1: "Testing manual y primeras automatizaciones con Micro Focus UFT sobre una plataforma BPMS / low-code.",
+    exp3_b2: "Validaciones funcionales y gestión de tickets, incluidas las apps móviles Android e iOS.",
+    exp3_b3: "Testing de APIs REST y SOAP con Postman, Swagger y SoapUI; consultas SQL para validación de datos.",
+    exp3_b4: "Script PowerShell con tarea programada diaria que actualizaba la aplicación a la última versión en varios equipos.",
+    exp3_b5: "Despliegues con Azure DevOps, administración de usuarios en Active Directory y dashboards en Power BI.",
     skills_label: "Competencias",
     skills_heading: "Tech <span>Stack</span>",
     skill1_title: "Automatización de Testing",
-    skill3_title: "Lenguajes & Frameworks",
+    skill3_title: "Lenguajes & Datos",
     skill4_title: "Herramientas",
-    skill5_title: "Metodologías",
+    skill5_title: "Metodologías & CI/CD",
     skill5_tag1: "Diseño de estrategia de testing",
-    skill6_title: "Plataformas",
+    skill6_title: "Plataformas & Sistemas",
     edu_label: "Formación & Idiomas",
     edu_heading: "Educación & <span>Idiomas</span>",
     edu_card_title: "Educación",
@@ -53,21 +57,14 @@ const translations = {
     lang_native2: "Nativo",
     lang_native3: "Nativo",
     lang_en_level: "Avanzado (C1)",
-    lang_fr_level: "A2-B1 (en estudio)",
+    lang_fr_level: "B1 (en progreso, inmersión diaria)",
     contact_label: "Hablemos",
     contact_heading: "Ponte en <span>contacto</span>",
     contact_phone_label: "Teléfono",
     contact_location_label: "Ubicación",
+    contact_avail_label: "Disponibilidad",
+    contact_avail_value: "Inmediata · Ciudadano UE (libre circulación, sin sponsorship)",
     footer_text: "Todos los derechos reservados.",
-    nav_download: 'CV',
-    modal_title: 'Descargar CV',
-    modal_subtitle: 'Elige el formato que prefieras',
-    modal_visual_title: 'Versión Visual',
-    modal_visual_desc: 'Diseño con foto y sidebar',
-    modal_complete_title: 'Versión Completa',
-    modal_complete_desc: 'Formato clásico detallado',
-    deepdive_label: '¿Quieres ver el detalle técnico?',
-    deepdive_text: 'Cada skill tiene su propia página con ejemplos de código reales, patrones y decisiones de arquitectura.',
   },
   en: {
     nav_experience: "Experience",
@@ -75,39 +72,43 @@ const translations = {
     nav_education: "Education",
     nav_contact: "Contact",
     hero_greeting: "Hi, I'm",
-    hero_desc: "QA Automation Engineer with 3+ years of experience in test automation, API testing, and software quality assurance. Passionate about delivering reliable, high-quality products.",
+    hero_desc: "QA Engineer with 3+ years in software quality assurance: E2E automation with Playwright and TypeScript, API testing and data validation. Now based in Lausanne, available immediately.",
     hero_cta_contact: "Get in touch",
     hero_cta_exp: "See experience",
     photo_placeholder: "Your photo here",
     scroll_text: "Scroll",
     exp_label: "Career",
     exp_heading: "Professional <span>Experience</span>",
-    exp1_date: "Nov 2025 — Present",
-    exp1_b1: "Collaborate with Product Managers from early project phases to define testing strategy and quality requirements, reducing late-stage defect discovery.",
-    exp1_b2: "Design and implement automation strategy using Playwright in Angular with BDD/Gherkin test scenarios.",
-    exp1_b3: "Develop and maintain automated E2E test suites, combining automated and manual testing for comprehensive coverage across critical user flows.",
-    exp1_b4: "Lead mobile application testing on iOS and Android, ensuring functionality, usability, and cross-platform consistency.",
-    exp1_b5: "Continuously optimize QA processes, contributing to measurable improvements in product quality and reduced regression cycles.",
+    exp1_date: "Nov 2025 — Sep 2026",
+    exp1_b1: "Designed, automated and maintained E2E tests with Playwright and TypeScript, written in Gherkin/BDD and traceable to business requirements (Angular front end).",
+    exp1_b2: "Integrated the suite into GitLab CI/CD pipelines to validate every deployment; performance testing with JMeter and k6.",
+    exp1_b3: "API testing with Postman and EchoAPI; continuous data validation against SQL and MongoDB.",
+    exp1_b4: "Android test automation and Android/iOS functional testing; smoke and regression testing of critical flows before each release.",
+    exp1_b5: "Documented a long-used but never-documented application; it became the team's main reference for telling new bugs from expected behaviour.",
     exp2_date: "Sep 2024 — Nov 2025",
-    exp2_b1: "Delivered Level 3 technical support, resolving complex escalated incidents and providing advanced troubleshooting for API integrations.",
-    exp2_b2: "Executed SQL queries for data validation, root cause analysis, and production issue investigation.",
-    exp2_b3: "Coordinated with development teams to ensure timely incident resolution, improving MTTR.",
+    exp2_b1: "Level 3 technical support: complex incidents and production investigations, coordinated with development teams.",
+    exp2_b2: "Supported partners integrating with the Experticket API; troubleshooting with Postman and data analysis with SQL.",
+    exp2_b3: "Managed CI/CD deployments with Azure DevOps and contributed to QA validation of new features before release.",
     exp2_b4: "Developed domain expertise in tourism industry software and ticketing ecosystems.",
-    exp2_b5: "Worked within Agile/Scrum methodology with cross-functional teams including developers, PMs, and stakeholders.",
+    exp2_b5: "Covered the Director of Support's responsibilities during his absences, running the department's workload.",
+    exp4_date: "Sep 2024 — Nov 2025",
+    exp4_b1: "User and permissions management in Active Directory and across Windows, macOS and Linux.",
+    exp4_b2: "Microsoft 365 accounts and licence administration, including Teams support.",
+    exp4_b3: "Local network support, workstation preparation and deployment, hardware replacement.",
     exp3_date: "Apr 2022 — May 2024",
-    exp3_b1: "Provided technical support for BPMS software and SQL-based applications, maintaining system documentation.",
-    exp3_b2: "Participated in QA testing cycles, contributing to defect identification and product stability.",
-    exp3_b3: "Conducted API testing via Postman and SoapUI (REST/SOAP), validating integration workflows.",
-    exp3_b4: "Developed Power BI reports and dashboards for data-driven decision-making.",
-    exp3_b5: "Created automated workflows and designed forms to streamline internal business processes.",
+    exp3_b1: "Manual testing and first automated tests with Micro Focus UFT on a BPMS / low-code platform.",
+    exp3_b2: "Functional validation and ticket management, including Android and iOS mobile apps.",
+    exp3_b3: "REST and SOAP API testing with Postman, Swagger and SoapUI; SQL queries for data validation.",
+    exp3_b4: "PowerShell script with a daily scheduled task that updated the application to the latest version across multiple machines.",
+    exp3_b5: "Deployments with Azure DevOps, Active Directory user administration and Power BI dashboards.",
     skills_label: "Competencies",
     skills_heading: "Tech <span>Stack</span>",
     skill1_title: "Test Automation",
-    skill3_title: "Languages & Frameworks",
+    skill3_title: "Languages & Data",
     skill4_title: "Tools",
-    skill5_title: "Methodologies",
+    skill5_title: "Methodologies & CI/CD",
     skill5_tag1: "Test Strategy Design",
-    skill6_title: "Platforms",
+    skill6_title: "Platforms & Systems",
     edu_label: "Education & Languages",
     edu_heading: "Education & <span>Languages</span>",
     edu_card_title: "Education",
@@ -123,21 +124,14 @@ const translations = {
     lang_native2: "Native",
     lang_native3: "Native",
     lang_en_level: "Advanced (C1)",
-    lang_fr_level: "A2-B1 (actively studying)",
+    lang_fr_level: "B1 (improving, daily immersion)",
     contact_label: "Let's talk",
     contact_heading: "Get in <span>touch</span>",
     contact_phone_label: "Phone",
     contact_location_label: "Location",
+    contact_avail_label: "Availability",
+    contact_avail_value: "Immediate · EU citizen (free movement, no sponsorship needed)",
     footer_text: "All rights reserved.",
-    nav_download: 'CV',
-    modal_title: 'Download CV',
-    modal_subtitle: 'Choose your preferred format',
-    modal_visual_title: 'Visual Version',
-    modal_visual_desc: 'Design with photo and sidebar',
-    modal_complete_title: 'Complete Version',
-    modal_complete_desc: 'Detailed classic format',
-    deepdive_label: 'Want the full technical picture?',
-    deepdive_text: 'Each skill has its own page with real code examples, patterns, and architecture decisions.',
   },
   fr: {
     nav_experience: "Expérience",
@@ -145,44 +139,48 @@ const translations = {
     nav_education: "Formation",
     nav_contact: "Contact",
     hero_greeting: "Bonjour, je suis",
-    hero_desc: "Ingénieur QA Automation avec +3 ans d'expérience en automatisation des tests, testing d'APIs et assurance qualité logicielle. Passionné par la livraison de produits fiables et de haute qualité.",
+    hero_desc: "Ingénieur QA avec plus de 3 ans en assurance qualité logicielle : automatisation E2E avec Playwright et TypeScript, tests d'API et validation de données. Basé à Lausanne, disponible immédiatement.",
     hero_cta_contact: "Me contacter",
     hero_cta_exp: "Voir l'expérience",
     photo_placeholder: "Votre photo ici",
     scroll_text: "Défiler",
     exp_label: "Parcours",
     exp_heading: "Expérience <span>Professionnelle</span>",
-    exp1_date: "Nov 2025 — Présent",
-    exp1_b1: "Collaboration avec les Product Managers dès les premières phases du projet pour définir la stratégie de test et les exigences qualité, réduisant la découverte tardive de défauts.",
-    exp1_b2: "Conception et implémentation de la stratégie d'automatisation avec Playwright dans Angular avec des scénarios BDD/Gherkin.",
-    exp1_b3: "Développement et maintenance de suites de tests E2E automatisées, combinant tests automatiques et manuels pour une couverture complète.",
-    exp1_b4: "Direction des tests d'applications mobiles sur iOS et Android, garantissant fonctionnalité, utilisabilité et cohérence cross-platform.",
-    exp1_b5: "Optimisation continue des processus QA, contribuant à des améliorations mesurables de la qualité produit et à la réduction des cycles de régression.",
+    exp1_date: "Nov 2025 — Sep 2026",
+    exp1_b1: "Conception, automatisation et maintenance de tests E2E avec Playwright et TypeScript, rédigés en Gherkin/BDD et traçables aux exigences métier (front-end Angular).",
+    exp1_b2: "Intégration de la suite dans des pipelines GitLab CI/CD pour valider chaque déploiement ; tests de performance avec JMeter et k6.",
+    exp1_b3: "Tests d'API avec Postman et EchoAPI ; validation continue des données dans SQL et MongoDB.",
+    exp1_b4: "Automatisation de tests Android et tests fonctionnels Android/iOS ; tests smoke et de régression des flux critiques avant chaque release.",
+    exp1_b5: "Documentation d'une application utilisée depuis longtemps mais jamais documentée, devenue la référence principale de l'équipe pour distinguer les nouveaux bugs du comportement attendu.",
     exp2_date: "Sep 2024 — Nov 2025",
-    exp2_b1: "Support technique de Niveau 3, résolution d'incidents complexes escaladés et troubleshooting avancé pour les intégrations API.",
-    exp2_b2: "Exécution de requêtes SQL pour la validation des données, l'analyse des causes racines et l'investigation des incidents en production.",
-    exp2_b3: "Coordination avec les équipes de développement pour la résolution rapide des incidents, améliorant le MTTR.",
+    exp2_b1: "Support technique de niveau 3 : incidents complexes et investigations en production, en coordination avec les équipes de développement.",
+    exp2_b2: "Accompagnement des partenaires dans leur intégration à l'API Experticket ; troubleshooting avec Postman et analyse de données en SQL.",
+    exp2_b3: "Gestion des déploiements CI/CD avec Azure DevOps et validation QA des nouvelles fonctionnalités avant leur mise en production.",
     exp2_b4: "Développement d'expertise dans les logiciels de l'industrie touristique et les écosystèmes de billetterie.",
-    exp2_b5: "Travail en méthodologie Agile/Scrum avec des équipes cross-fonctionnelles incluant développeurs, PMs et stakeholders.",
+    exp2_b5: "Reprise des responsabilités du Directeur du support pendant ses absences, avec la gestion de la charge de travail du département.",
+    exp4_date: "Sep 2024 — Nov 2025",
+    exp4_b1: "Gestion des utilisateurs et des droits dans Active Directory et sous Windows, macOS et Linux.",
+    exp4_b2: "Administration des comptes et licences Microsoft 365, y compris le support Teams.",
+    exp4_b3: "Support réseau local, préparation et déploiement de postes de travail, remplacement de matériel.",
     exp3_date: "Avr 2022 — Mai 2024",
-    exp3_b1: "Support technique pour logiciel BPMS et applications basées sur SQL, maintenance de la documentation système.",
-    exp3_b2: "Participation aux cycles de tests QA, contribuant à l'identification des défauts et à la stabilité du produit.",
-    exp3_b3: "Tests d'APIs via Postman et SoapUI (REST/SOAP), validation des flux d'intégration.",
-    exp3_b4: "Développement de rapports et tableaux de bord Power BI pour la prise de décision basée sur les données.",
-    exp3_b5: "Création de workflows automatisés et conception de formulaires pour optimiser les processus internes.",
+    exp3_b1: "Tests manuels et premières automatisations avec Micro Focus UFT sur une plateforme BPMS / low-code.",
+    exp3_b2: "Validations fonctionnelles et gestion de tickets, y compris les applications mobiles Android et iOS.",
+    exp3_b3: "Tests d'API REST et SOAP avec Postman, Swagger et SoapUI ; requêtes SQL pour la validation des données.",
+    exp3_b4: "Script PowerShell avec tâche planifiée quotidienne mettant à jour l'application vers la dernière version sur plusieurs postes.",
+    exp3_b5: "Déploiements avec Azure DevOps, administration des utilisateurs Active Directory et tableaux de bord Power BI.",
     skills_label: "Compétences",
     skills_heading: "Tech <span>Stack</span>",
     skill1_title: "Automatisation des Tests",
-    skill3_title: "Langages & Frameworks",
+    skill3_title: "Langages & Données",
     skill4_title: "Outils",
-    skill5_title: "Méthodologies",
+    skill5_title: "Méthodologies & CI/CD",
     skill5_tag1: "Conception de stratégie de test",
-    skill6_title: "Plateformes",
+    skill6_title: "Plateformes & Systèmes",
     edu_label: "Formation & Langues",
     edu_heading: "Formation & <span>Langues</span>",
     edu_card_title: "Formation",
-    edu_degree: "Formation Professionnelle Supérieure en Administration des Systèmes Informatiques en Réseau",
-    edu_eqf: "Niveau EQF 5 — ASIR",
+    edu_degree: "Formation Professionnelle Supérieure en Administration de Systèmes Informatiques en Réseau",
+    edu_eqf: "Niveau CEC/EQF 5 — ASIR",
     lang_card_title: "Langues",
     lang_es: "Espagnol",
     lang_ru: "Russe",
@@ -193,31 +191,26 @@ const translations = {
     lang_native2: "Natif",
     lang_native3: "Natif",
     lang_en_level: "Avancé (C1)",
-    lang_fr_level: "A2-B1 (en cours d'étude)",
+    lang_fr_level: "B1 (en progression, immersion quotidienne)",
     contact_label: "Parlons",
     contact_heading: "Entrons en <span>contact</span>",
     contact_phone_label: "Téléphone",
     contact_location_label: "Localisation",
+    contact_avail_label: "Disponibilité",
+    contact_avail_value: "Immédiate · Citoyen UE (libre circulation, permis délivré sur contrat)",
     footer_text: "Tous droits réservés.",
-    nav_download: 'CV',
-    modal_title: 'Télécharger CV',
-    modal_subtitle: 'Choisissez le format souhaité',
-    modal_visual_title: 'Version Visuelle',
-    modal_visual_desc: 'Design avec photo et sidebar',
-    modal_complete_title: 'Version Complète',
-    modal_complete_desc: 'Format classique détaillé',
-    deepdive_label: 'Envie d\'aller plus loin ?',
-    deepdive_text: 'Chaque compétence a sa propre page avec des exemples de code réels, des patterns et des décisions d\'architecture.',
   }
 };
 
-let currentLang = 'es';
+const supportedLangs = ['fr', 'en', 'es'];
+let currentLang = 'fr';
 
-const savedLang = localStorage.getItem('lang');
+let savedLang = null;
+try { savedLang = localStorage.getItem('lang'); } catch (e) {}
 const browserLang = (navigator.language || navigator.userLanguage || '').slice(0, 2);
-if (savedLang && ['es', 'en', 'fr'].includes(savedLang)) {
+if (savedLang && supportedLangs.includes(savedLang)) {
   currentLang = savedLang;
-} else if (['es', 'en', 'fr'].includes(browserLang)) {
+} else if (supportedLangs.includes(browserLang)) {
   currentLang = browserLang;
 }
 
@@ -225,7 +218,7 @@ setLang(currentLang);
 
 function setLang(lang) {
   currentLang = lang;
-  localStorage.setItem('lang', lang);
+  try { localStorage.setItem('lang', lang); } catch (e) {}
   document.documentElement.lang = lang;
 
   document.querySelectorAll('.lang-btn').forEach(btn => {
@@ -279,48 +272,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   });
-});
-
-// ═══════════ CV DOWNLOAD MODAL ═══════════
-// Add this at the END of your main.js file
-
-function openCVModal() {
-  document.getElementById('cvModal').classList.add('active');
-  document.body.style.overflow = 'hidden';
-  // Close mobile menu if open
-  const navLinks = document.getElementById('navLinks');
-  if (navLinks) navLinks.classList.remove('mobile-open');
-}
-
-function closeCVModal(event) {
-  // If called from overlay click, only close if clicking the overlay itself
-  if (event && event.target !== event.currentTarget) return;
-  document.getElementById('cvModal').classList.remove('active');
-  document.body.style.overflow = '';
-}
-
-function downloadCV(type) {
-  // Get current language (check which lang-btn has 'active' class)
-  const activeLangBtn = document.querySelector('.lang-btn.active');
-  const lang = activeLangBtn ? activeLangBtn.textContent.trim() : 'ES';
-  
-  // Build the file path
-  const prefix = type === 'visual' ? 'CV_Visual' : 'CV_Complete';
-  const filePath = `cv/${prefix}_${lang}_Artiom_Syrovatskyy.pdf`;
-  
-  // Trigger download
-  const a = document.createElement('a');
-  a.href = filePath;
-  a.download = `${prefix}_${lang}_Artiom_Syrovatskyy.pdf`;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  
-  // Close modal
-  closeCVModal();
-}
-
-// Close modal with Escape key
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') closeCVModal();
 });

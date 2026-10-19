@@ -35,12 +35,12 @@ jobs:
 
       - name: Copy HTML site into dist
         run: |
+          mkdir -p dist
           cp index.html dist/index.html
           cp CNAME dist/CNAME
           cp foto-perfil.jpg dist/foto-perfil.jpg
           cp -r css dist/css
           cp -r js dist/js
-          cp -r cv dist/cv
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

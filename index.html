@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Artiom Syrovatskyy Kovalyov — QA Automation Engineer</title>
-<meta name="description" content="Artiom Syrovatskyy Kovalyov — QA Automation Engineer portfolio. Playwright, Angular, BDD, API Testing.">
+<meta name="description" content="Artiom Syrovatskyy Kovalyov — QA Automation Engineer based in Lausanne, Switzerland. Playwright, TypeScript, BDD/Gherkin, API testing, CI/CD.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -21,13 +21,6 @@
     <li><a href="#skills" data-i18n="nav_skills">Skills</a></li>
     <li><a href="#education" data-i18n="nav_education">Educación</a></li>
     <li><a href="#contact" data-i18n="nav_contact">Contacto</a></li>
-  <li>
-    <button class="btn-download-nav" onclick="openCVModal()">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-      CV
-    </button>
-  </li>
-
     <li>
       <div class="lang-switcher">
         <button class="lang-btn active" onclick="setLang('es')">ES</button>
@@ -42,38 +35,6 @@
 </nav>
 
 
-<!-- CV Download Modal -->
-<div class="cv-modal-overlay" id="cvModal" onclick="closeCVModal(event)">
-  <div class="cv-modal">
-    <button class="cv-modal-close" onclick="closeCVModal()">&times;</button>
-    <h3 class="cv-modal-title" data-i18n="modal_title">Descargar CV</h3>
-    <p class="cv-modal-subtitle" data-i18n="modal_subtitle">Elige el formato que prefieras</p>
-    <div class="cv-modal-options">
-      <button class="cv-option" onclick="downloadCV('visual')">
-        <div class="cv-option-icon">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
-        </div>
-        <div class="cv-option-text">
-          <span class="cv-option-title" data-i18n="modal_visual_title">Versión Visual</span>
-          <span class="cv-option-desc" data-i18n="modal_visual_desc">Diseño con foto y sidebar</span>
-        </div>
-        <svg class="cv-option-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-      </button>
-      <button class="cv-option" onclick="downloadCV('complete')">
-        <div class="cv-option-icon">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-        </div>
-        <div class="cv-option-text">
-          <span class="cv-option-title" data-i18n="modal_complete_title">Versión Completa</span>
-          <span class="cv-option-desc" data-i18n="modal_complete_desc">Formato clásico detallado</span>
-        </div>
-        <svg class="cv-option-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-      </button>
-    </div>
-  </div>
-</div>
-
-
 <section class="hero" id="hero">
   <div class="hero-container">
     <div class="hero-text">
@@ -81,7 +42,7 @@
       <h1 class="hero-name">Artiom <span class="accent">Syrovatskyy</span> Kovalyov</h1>
       <h2 class="hero-title">QA Automation Engineer</h2>
       <p class="hero-desc" data-i18n="hero_desc">
-        Ingeniero QA con +3 años de experiencia en automatización de pruebas, testing de APIs y aseguramiento de calidad de software. Apasionado por entregar productos fiables y de alta calidad.
+        Ingeniero QA con +3 años en aseguramiento de calidad de software: automatización E2E con Playwright y TypeScript, testing de APIs y validación de datos. Ahora en Lausana, disponible de inmediato.
       </p>
       <div class="hero-cta">
         <a href="#contact" class="btn btn-primary" data-i18n="hero_cta_contact">Contactar</a>
@@ -119,15 +80,15 @@
 
       <div class="timeline-item">
         <div class="timeline-dot"></div>
-        <p class="timeline-date" data-i18n="exp1_date">Nov 2025 — Presente</p>
+        <p class="timeline-date" data-i18n="exp1_date">Nov 2025 — Sep 2026</p>
         <h3 class="timeline-role">QA Engineer</h3>
         <p class="timeline-company">Fourvenues</p>
         <ul class="timeline-bullets">
-          <li data-i18n="exp1_b1">Colaboración con Product Managers desde fases tempranas para definir estrategia de testing y requisitos de calidad, reduciendo defectos en fases tardías.</li>
-          <li data-i18n="exp1_b2">Diseño e implementación de estrategia de automatización con Playwright en Angular con escenarios BDD/Gherkin.</li>
-          <li data-i18n="exp1_b3">Desarrollo y mantenimiento de suites de pruebas E2E automatizadas, combinando testing automático y manual para cobertura completa.</li>
-          <li data-i18n="exp1_b4">Liderazgo en testing de apps móviles en iOS y Android, asegurando funcionalidad, usabilidad y consistencia cross-platform.</li>
-          <li data-i18n="exp1_b5">Optimización continua de procesos QA, contribuyendo a mejoras medibles en calidad de producto y reducción de ciclos de regresión.</li>
+          <li data-i18n="exp1_b1">Diseño, automatización y mantenimiento de tests E2E con Playwright y TypeScript, escritos en Gherkin/BDD y trazables a los requisitos de negocio (front-end Angular).</li>
+          <li data-i18n="exp1_b2">Integración de la suite en pipelines GitLab CI/CD para validar cada despliegue; pruebas de rendimiento con JMeter y k6.</li>
+          <li data-i18n="exp1_b3">Testing de APIs con Postman y EchoAPI; validación continua de datos en SQL y MongoDB.</li>
+          <li data-i18n="exp1_b4">Automatización de tests en Android y testing funcional en Android/iOS; smoke y regresión de flujos críticos antes de cada release.</li>
+          <li data-i18n="exp1_b5">Documentación de una aplicación que nunca se había documentado, que pasó a ser la referencia principal del equipo para distinguir bugs nuevos del comportamiento esperado.</li>
         </ul>
       </div>
 
@@ -137,11 +98,23 @@
         <h3 class="timeline-role">L3 Technical Support Engineer</h3>
         <p class="timeline-company">Experticket</p>
         <ul class="timeline-bullets">
-          <li data-i18n="exp2_b1">Soporte técnico de Nivel 3, resolviendo incidencias complejas escaladas y troubleshooting avanzado para integraciones API.</li>
-          <li data-i18n="exp2_b2">Ejecución de consultas SQL para validación de datos, análisis de causa raíz e investigación de incidencias en producción.</li>
-          <li data-i18n="exp2_b3">Coordinación con equipos de desarrollo para resolución oportuna de incidencias, mejorando el MTTR.</li>
+          <li data-i18n="exp2_b1">Soporte técnico de Nivel 3: incidencias complejas e investigaciones en producción, coordinadas con los equipos de desarrollo.</li>
+          <li data-i18n="exp2_b2">Soporte a partners en su integración con la API de Experticket; troubleshooting con Postman y análisis de datos con SQL.</li>
+          <li data-i18n="exp2_b3">Gestión de despliegues CI/CD con Azure DevOps y validación QA de nuevas funcionalidades antes de su publicación.</li>
           <li data-i18n="exp2_b4">Desarrollo de expertise en software de la industria turística y ecosistemas de ticketing.</li>
-          <li data-i18n="exp2_b5">Trabajo en metodología Agile/Scrum con equipos cross-funcionales incluyendo desarrolladores, PMs y stakeholders.</li>
+          <li data-i18n="exp2_b5">Asumí las responsabilidades del Director de Soporte durante sus ausencias, gestionando la carga de trabajo del departamento.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date" data-i18n="exp4_date">Sep 2024 — Nov 2025</p>
+        <h3 class="timeline-role">IT Helpdesk Technician</h3>
+        <p class="timeline-company">Tixalia (Letratech)</p>
+        <ul class="timeline-bullets">
+          <li data-i18n="exp4_b1">Gestión de usuarios y permisos en Active Directory y en entornos Windows, macOS y Linux.</li>
+          <li data-i18n="exp4_b2">Administración de cuentas y licencias de Microsoft 365, incluido soporte de Teams.</li>
+          <li data-i18n="exp4_b3">Soporte de red local, preparación y despliegue de puestos de trabajo y sustitución de hardware.</li>
         </ul>
       </div>
 
@@ -151,11 +124,11 @@
         <h3 class="timeline-role">Quality Assurance Analyst</h3>
         <p class="timeline-company">AuraQuantic</p>
         <ul class="timeline-bullets">
-          <li data-i18n="exp3_b1">Soporte técnico para software BPMS y aplicaciones basadas en SQL, manteniendo documentación del sistema.</li>
-          <li data-i18n="exp3_b2">Participación en ciclos de testing QA, contribuyendo a identificación de defectos y estabilidad del producto.</li>
-          <li data-i18n="exp3_b3">Testing de APIs vía Postman y SoapUI (REST/SOAP), validando flujos de integración.</li>
-          <li data-i18n="exp3_b4">Desarrollo de informes y dashboards en Power BI para la toma de decisiones basada en datos.</li>
-          <li data-i18n="exp3_b5">Creación de flujos automatizados y diseño de formularios para optimizar procesos internos.</li>
+          <li data-i18n="exp3_b1">Testing manual y primeras automatizaciones con Micro Focus UFT sobre una plataforma BPMS / low-code.</li>
+          <li data-i18n="exp3_b2">Validaciones funcionales y gestión de tickets, incluidas las apps móviles Android e iOS.</li>
+          <li data-i18n="exp3_b3">Testing de APIs REST y SOAP con Postman, Swagger y SoapUI; consultas SQL para validación de datos.</li>
+          <li data-i18n="exp3_b4">Script PowerShell con tarea programada diaria que actualizaba la aplicación a la última versión en varios equipos.</li>
+          <li data-i18n="exp3_b5">Despliegues con Azure DevOps, administración de usuarios en Active Directory y dashboards en Power BI.</li>
         </ul>
       </div>
 
@@ -177,6 +150,7 @@
           <span class="skill-tag">Playwright</span>
           <span class="skill-tag">Gherkin / BDD</span>
           <span class="skill-tag">E2E Testing</span>
+          <span class="skill-tag">JMeter / k6</span>
           <span class="skill-tag">Manual Testing</span>
         </div>
       </div>
@@ -186,6 +160,7 @@
         <h3 class="skill-card-title">API Testing</h3>
         <div class="skill-tags">
           <span class="skill-tag">Postman</span>
+          <span class="skill-tag">EchoAPI</span>
           <span class="skill-tag">SoapUI</span>
           <span class="skill-tag">REST</span>
           <span class="skill-tag">SOAP</span>
@@ -196,10 +171,12 @@
         <div class="skill-card-icon">💻</div>
         <h3 class="skill-card-title" data-i18n="skill3_title">Lenguajes & Frameworks</h3>
         <div class="skill-tags">
-          <span class="skill-tag">JavaScript</span>
           <span class="skill-tag">TypeScript</span>
-          <span class="skill-tag">Angular</span>
+          <span class="skill-tag">JavaScript</span>
           <span class="skill-tag">SQL</span>
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">PowerShell</span>
         </div>
       </div>
 
@@ -207,10 +184,12 @@
         <div class="skill-card-icon">🛠️</div>
         <h3 class="skill-card-title" data-i18n="skill4_title">Herramientas</h3>
         <div class="skill-tags">
-          <span class="skill-tag">Power BI</span>
           <span class="skill-tag">Git</span>
           <span class="skill-tag">Jira</span>
-          <span class="skill-tag">BPMS</span>
+          <span class="skill-tag">Notion</span>
+          <span class="skill-tag">Power BI</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Claude Code</span>
         </div>
       </div>
 
@@ -219,7 +198,8 @@
         <h3 class="skill-card-title" data-i18n="skill5_title">Metodologías</h3>
         <div class="skill-tags">
           <span class="skill-tag">Agile / Scrum</span>
-          <span class="skill-tag">CI/CD</span>
+          <span class="skill-tag">GitLab CI/CD</span>
+          <span class="skill-tag">Azure DevOps</span>
           <span class="skill-tag" data-i18n="skill5_tag1">Diseño de estrategia de testing</span>
         </div>
       </div>
@@ -231,42 +211,13 @@
           <span class="skill-tag">iOS</span>
           <span class="skill-tag">Android</span>
           <span class="skill-tag">Windows</span>
-          <span class="skill-tag">Mac</span>
+          <span class="skill-tag">macOS</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">Active Directory</span>
+          <span class="skill-tag">Microsoft 365</span>
         </div>
       </div>
     </div>
-
-    <div class="skills-deepdive reveal">
-      <p class="skills-deepdive__label" data-i18n="deepdive_label">Want the full picture?</p>
-      <p class="skills-deepdive__text" data-i18n="deepdive_text">Each skill has its own page with real code examples, patterns, and architecture decisions.</p>
-      <div class="skills-deepdive__grid">
-        <a href="/skills/playwright" class="skills-deepdive__card">
-          <span class="skills-deepdive__name">Playwright & E2E</span>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-        </a>
-        <a href="/skills/api-testing" class="skills-deepdive__card">
-          <span class="skills-deepdive__name">API Testing</span>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-        </a>
-        <a href="/skills/bdd-gherkin" class="skills-deepdive__card">
-          <span class="skills-deepdive__name">BDD & Gherkin</span>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-        </a>
-        <a href="/skills/cicd" class="skills-deepdive__card">
-          <span class="skills-deepdive__name">CI/CD & Quality Gates</span>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-        </a>
-        <a href="/skills/sql" class="skills-deepdive__card">
-          <span class="skills-deepdive__name">SQL & Data Validation</span>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-        </a>
-        <a href="/skills/typescript" class="skills-deepdive__card">
-          <span class="skills-deepdive__name">TypeScript</span>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-        </a>
-      </div>
-    </div>
-
   </div>
 </section>
 
@@ -304,7 +255,7 @@
         </div>
         <div class="lang-item">
           <span class="lang-name" data-i18n="lang_fr">Francés</span>
-          <span class="lang-level" data-i18n="lang_fr_level">A2-B1 (actualmente estudiando)</span>
+          <span class="lang-level" data-i18n="lang_fr_level">B1 (en progreso, inmersión diaria)</span>
         </div>
       </div>
     </div>
@@ -328,13 +279,33 @@
         </div>
       </a>
 
+      <a href="tel:+41772308772" class="contact-card" style="text-decoration:none;">
+        <div class="contact-icon">
+          <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
+        </div>
+        <div>
+          <p class="contact-label" data-i18n="contact_phone_label">Teléfono</p>
+          <p class="contact-value">+41 77 230 87 72</p>
+        </div>
+      </a>
+
       <div class="contact-card">
         <div class="contact-icon">
           <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/></svg>
         </div>
         <div>
           <p class="contact-label" data-i18n="contact_location_label">Ubicación</p>
-          <p class="contact-value">Valencia, Spain</p>
+          <p class="contact-value">Lausanne, Vaud, Switzerland</p>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">
+          <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+        </div>
+        <div>
+          <p class="contact-label" data-i18n="contact_avail_label">Disponibilidad</p>
+          <p class="contact-value" data-i18n="contact_avail_value">Inmediata · Ciudadano UE (libre circulación, sin sponsorship)</p>
         </div>
       </div>
 
@@ -345,6 +316,16 @@
         <div>
           <p class="contact-label">LinkedIn</p>
           <p class="contact-value">artiom-syrovatskyy</p>
+        </div>
+      </a>
+
+      <a href="https://github.com/syrox11" target="_blank" rel="noopener" class="contact-card" style="text-decoration:none;">
+        <div class="contact-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 002 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0012 2z"/></svg>
+        </div>
+        <div>
+          <p class="contact-label">GitHub</p>
+          <p class="contact-value">syrox11</p>
         </div>
       </a>
     </div>
