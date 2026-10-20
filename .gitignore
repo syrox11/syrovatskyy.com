@@ -13,3 +13,7 @@ dist/
 portfolio/
 agente.js
 .claude/tag_i18n.mjs
+
+# Claude Code config (local only)
+.claude/
+CLAUDE.md
