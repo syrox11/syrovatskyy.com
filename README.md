@@ -1,6 +1,6 @@
 # syrovatskyy.com
 
-[![Deploy to GitHub Pages](https://github.com/syrox11/artiomsyrovatskyy.com/actions/workflows/deploy.yml/badge.svg)](https://github.com/syrox11/artiomsyrovatskyy.com/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/syrox11/syrovatskyy.com/actions/workflows/deploy.yml/badge.svg)](https://github.com/syrox11/syrovatskyy.com/actions/workflows/deploy.yml)
 
 Source of my personal portfolio as a QA Automation Engineer: **[syrovatskyy.com](https://syrovatskyy.com)**.
 
