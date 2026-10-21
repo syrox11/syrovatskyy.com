@@ -414,7 +414,7 @@ section { position: relative; z-index: 1; padding: 6rem 2rem; }
 }
 .skill-tag:hover { background: var(--accent-glow); border-color: rgba(251,203,43,0.3); color: var(--accent); }
 
-#education { background: var(--bg-secondary); }
+#projects, #contact { background: var(--bg-secondary); }
 
 .edu-lang-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
 
@@ -500,4 +500,20 @@ footer { text-align: center; padding: 2rem; color: var(--text-muted); font-size:
   .hero { padding: 7rem 1.2rem 3rem; }
   .skills-grid { grid-template-columns: 1fr; }
   .hero-cta { flex-direction: column; align-items: center; }
+}
+
+.projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+.project-card {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px;
+  padding: 2rem; display: flex; flex-direction: column; gap: 0.2rem; transition: all 0.4s;
+}
+.project-card:hover { border-color: rgba(251,203,43,0.2); transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.3); }
+.project-card:nth-child(odd) .skill-card-icon { background: rgba(251,203,43,0.12); }
+.project-card:nth-child(even) .skill-card-icon { background: rgba(139,92,246,0.12); }
+.project-desc { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 1rem; }
+.project-links { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: auto; padding-top: 1.2rem; }
+.project-links .btn { padding: 0.6rem 1.4rem; font-size: 0.85rem; }
+
+@media (max-width: 600px) {
+  .projects-grid { grid-template-columns: 1fr; }
 }
