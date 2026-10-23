@@ -172,6 +172,8 @@ nav.scrolled {
   align-items: center;
   position: relative;
   padding: 8rem 2rem 4rem;
+  /* The glow blobs sit partly off-screen; clip them so they do not widen the page */
+  overflow-x: clip;
 }
 
 .hero-container {
